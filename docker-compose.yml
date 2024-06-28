@@ -1,0 +1,27 @@
+version: '3.4'
+
+services:
+  sqldb:
+    image: "mcr.microsoft.com/mssql/server"
+    container_name: 'sqldb'
+    ports:
+      - '1434:1433'
+    environment:
+      SA_PASSWORD: "Admin789"
+      ACCEPT_EULA: "Y"
+    networks:
+      - local
+
+  cnabapi:
+    depends_on: 
+      - sqldb
+    image: ${DOCKER_REGISTRY-}cnabapi
+    build:
+      context: .
+      dockerfile: CnabApi/Dockerfile
+    networks:
+      - local
+
+networks:
+  local:
+    driver: bridge

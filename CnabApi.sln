@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35004.147
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CnabApi", "CnabApi\CnabApi.csproj", "{5717957D-4718-4CF3-B16D-6B06BD97F2BC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "Application\Application.csproj", "{387A164D-8E37-4C42-ABE7-73CC05E2A561}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{2C81D6BF-F9DA-4371-92C1-5023390E1FD2}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5717957D-4718-4CF3-B16D-6B06BD97F2BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5717957D-4718-4CF3-B16D-6B06BD97F2BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5717957D-4718-4CF3-B16D-6B06BD97F2BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5717957D-4718-4CF3-B16D-6B06BD97F2BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{387A164D-8E37-4C42-ABE7-73CC05E2A561}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{387A164D-8E37-4C42-ABE7-73CC05E2A561}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{387A164D-8E37-4C42-ABE7-73CC05E2A561}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{387A164D-8E37-4C42-ABE7-73CC05E2A561}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2C81D6BF-F9DA-4371-92C1-5023390E1FD2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2C81D6BF-F9DA-4371-92C1-5023390E1FD2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2C81D6BF-F9DA-4371-92C1-5023390E1FD2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2C81D6BF-F9DA-4371-92C1-5023390E1FD2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E64E0B44-C450-4745-804A-99A062A51007}
+	EndGlobalSection
+EndGlobal
